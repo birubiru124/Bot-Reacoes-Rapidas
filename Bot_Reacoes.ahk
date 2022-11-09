@@ -20,9 +20,9 @@ Loop 30
    }
 
    Send, {Ctrl Down}w{Ctrl Up}
-   Sleep, 120000
-   Run, Chrome.exe //*link do storys*//
-   Sleep, 8000
+   Sleep, 1200  
+   Run, Chrome.exe https://www.instagram.com/stories/lucassalestrader/2967774466278498293/  
+   Sleep, 800
    Send, {Tab Down} {Tab Up}
    Sleep, 500
    Send {Enter Down} {Enter Up}
